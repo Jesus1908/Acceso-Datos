@@ -39,22 +39,20 @@
     <thead>
       <tr>
         <th>ID</th>
-        <th>Nombre mascota</th>
-        <th>Tipo</th>
-        <th>Color</th>
-        <th>Genero</th>
         <th>Propietario</th>
+        <th>ID Mascota</th>
+        <th>Nombre Mascota</th>
+        <th>Tipo</th>
       </tr>
     </thead>
 
-    <?php foreach ($listaMascotas as $mascota): ?>
+    <?php foreach ($listaPropietario as $propietario): ?>
       <tr>
-        <td><?= $mascota['idmascota'] ?></td>
-        <td><?= $mascota['nombre'] ?></td>
-        <td><?= $mascota['tipo'] ?></td>
-        <td><?= $mascota['color'] ?></td>
-        <td><?= $mascota['genero'] ?></td>
-        <td><?= $mascota['propietario'] ?></td>
+        <td><?= $propietario['idpropietario'] ?></td>
+        <td><?= $propietario['propietario'] ?></td>
+        <td><?= $propietario['idmascota'] ?></td>
+        <td><?= $propietario['nombre_mascota'] ?></td>
+        <td><?= $propietario['tipo'] ?></td>
       </tr>
     <?php endforeach ?>
   </table>

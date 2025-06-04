@@ -1,3 +1,4 @@
+
 create database veterinaria;
 use veterinaria;
 
@@ -40,4 +41,13 @@ SELECT
 FROM mascotas MA 
 INNER JOIN propietarios PR ON MA.idpropietario = PR.idpropietario 
 ORDER BY MA.nombre;
-  
+
+SELECT 
+  PR.idpropietario,
+  CONCAT(PR.apellidos, ' ', PR.nombre) AS propietario,
+  MA.idmascota,
+  MA.nombre AS nombre_mascota,
+  MA.tipo
+FROM propietarios PR
+INNER JOIN mascotas MA ON PR.idpropietario = MA.idpropietario
+ORDER BY PR.idpropietario, MA.nombre;

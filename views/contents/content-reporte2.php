@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="../../public/css/estilos-reporte.css">
+  <link rel="stylesheet" href="../../public/css/estilo-reporte.html">
 </head>
 <body>
   <h1>SENATI</h1>
-  <h2>Jhon</h2>
+  <h2>Omar</h2>
   <p>
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis incidunt id iure, itaque maiores animi, voluptatum expedita veniam commodi in sed non, praesentium nisi maxime dolorem aspernatur? Id, omnis expedita!
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur sapiente deleniti omnis? Molestias quisquam itaque deleniti similique at fugit quae! Delectus, asperiores nisi itaque cupiditate exercitationem excepturi voluptate voluptatibus!
